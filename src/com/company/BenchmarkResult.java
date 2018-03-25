@@ -1,7 +1,7 @@
 package com.company;
 
-public class BenchmarkResult<T>
+public class BenchmarkResult<T> extends BenchmarkActionResult
 {
-    long time;
-    T value;
+   public T value;
 }
+
